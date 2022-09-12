@@ -1,5 +1,5 @@
 import pytest
-from calculadora import Calculadora
+from src.calculadora import Calculadora
 
 
 class TestCalculadora(): #suite de testes
