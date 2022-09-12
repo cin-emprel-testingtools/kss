@@ -2,7 +2,7 @@ import math
 
 class Calculadora:
 
-    def raizquadrada(valor):
+    def raizquadrada(self, valor):
         """soma = math.sqrt(valor)
         print(f'A raiz quadrada de {valor} é {soma}')"""
         return math.sqrt(valor)
