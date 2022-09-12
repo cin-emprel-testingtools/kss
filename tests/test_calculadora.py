@@ -31,6 +31,9 @@ class TestCalculadora(): #suite de testes
     def test_multiplicacao(self):
         assert self.calc.multiplicacao(4,2)==8
 
+    def test_raizQ(self):
+        assert self.calc.raizquadrada(25)==5
+
 
     #exeption
 
