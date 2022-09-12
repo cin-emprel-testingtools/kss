@@ -20,32 +20,5 @@ class Calculadora:
         return valor1 / valor2
 
 
-    print('---------------------------------------------------------')
-    print('                    Calculadora                          ')
-    print('---------------------------------------------------------')
-
-    '''
-    valor1 = int(input('Informe o primeiro valor '))
-    valor2 =int(input('Informe o segundo valor '))
-    '''
-
-if __name__ == '__main__':
-    calc = Calculadora() #instanciando objeto
-
-    #TEST SOMA
-
-    #comportament observado
-    result = calc.soma(5,5)
-
-    #comportamento esperado
-    esperado = 10
-
-    #test
-
-    if result != esperado:
-        print(f'FALHOU! o teste esperava o valor {esperado}, mas retornou {result}')
-    else:
-        print('PASSOU')
-
 
 

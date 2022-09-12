@@ -31,10 +31,6 @@ class TestCalculadora(): #suite de testes
     def test_multiplicacao(self):
         assert self.calc.multiplicacao(4,2)==8
 
-    #error
-
-    def test_error_soma(self):
-        assert self.calc.soma(2,5)==7
 
     #exeption
 
